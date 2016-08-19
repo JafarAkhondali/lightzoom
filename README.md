@@ -3,7 +3,7 @@ JQuery plugin that use pure css to zoom on images, this enables you to zoom with
 
 Demo
 _____
-(Demo)[http://codepen.io/JafarAKhondali/pen/bZJqjb]
+[Demo](http://codepen.io/JafarAKhondali/pen/bZJqjb)
 
 Installation
 _____________
