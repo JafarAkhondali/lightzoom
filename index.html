@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paste Blower</title>
+    <link href="glassstyle.css" rel="stylesheet">
+    <script src="jquery.min.js"></script>
+    <script src="lightzoom.js"></script>
+</head>
+<body style="text-align: center">
+
+<img class="light-zoom" width="500px" height="500px" src="http://www.antigrain.com/research/font_rasterization/adobe_text_rendering.png">
+
+
+
+<script>
+
+    $(document).ready(function () {
+        $('img.light-zoom').lightzoom({
+            zoomPower   : 3,    //Default
+            glassSize   : 180,  //Default
+        });
+    });
+
+
+</script>
+</body>
+</html>
