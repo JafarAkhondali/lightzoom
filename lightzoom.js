@@ -39,8 +39,9 @@ $.fn.lightzoom = function(options) {
         var my = event.pageY;
         var w  = obj.offsetWidth;
         var h  = obj.offsetHeight;
-        var ol = obj.offsetLeft;
-        var ot = obj.offsetTop;
+        var objOffset  = $(obj).offset();         
+        var ol = objOffset.left;
+        var ot = objOffset.top;
         if(mx > ol &&  mx < ol + w  && ot < my  &&  ot+h > my ) {
             offsetXfixer = ((mx-ol - w/2)/(w/2))*quarterSize;
             offsetYfixer = ((my-ot - h/2)/(h/2))*quarterSize;
