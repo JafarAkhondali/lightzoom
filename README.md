@@ -3,7 +3,10 @@ JQuery plugin that use pure css to zoom on images, this enables you to zoom with
 _____
 [Demo](http://codepen.io/JafarAKhondali/pen/bZJqjb)
 _____
-Installation
+Installion:
+```npm install lightzoom```
+
+Import usage:
 _____________
 ```html
     <link href="glassstyle.css" rel="stylesheet">
@@ -11,7 +14,7 @@ _____________
 ```
 
 
-Usage:
+Config usage:
 ______
 ```javascript
     $(document).ready(function () {
